@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <script src="main.js"></script>
+  <body>
+    <header>      
+      <!-- Title -->
+      <div style="display: flex;  font-size: larger; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        <div style="width: 5%; padding-right: 20px; margin-left: 39.5%;">
+          <img src="dicticon.png" alt="" width="70px" height="70px" id="dicticon">
+        </div>
+        <div style="width: 10%;">
+          <h1>VocabVista</h1>
+        </div>
+      </div> <br>
+
+      
+      <div style="display: flex;">
+        <!-- Search box -->
+        <div class="searchbox">
+          <input type="text" placeholder="Start typing any word" id="searchword">
+          <button type="button" onclick="searchWord()" id="srch">⌕</button>
+        </div>
+
+        <!-- Directory -->
+        <div style="padding-left: 5%; display: flex; width: 40%; top: 50%;">
+          <div class="div1" style="background-color: whitesmoke;">
+            <a href="index.html">Dictionary</a>
+          </div>
+          <div class="div1">
+            <a href="WOTD.html">My Word of The Day</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <article>
+      <center><video width="50%" height="2%" style="border-radius: 10px;   box-shadow: 5px 5px 16px 1px grey;" controls autoplay loop>
+        <source src="vocabvista.mp4" type="video/mp4">
+      </video></center> <br><br>
+      <div class="divword">
+        <!--Display source, word, audio and phonetic section-->
+        <p id="source"></p>
+        <div style="display: flex;">
+          <div style="width: fit-content;">
+            <h3 id="huehue" style="position: absolute;">🧐 Hmm, nothing to see here yet. Perhaps you're not searching something? Try "<span style="color: orange;">cool</span>"!</h3>
+            <h2 id="displayword"></h2>
+          </div>
+          <div style="width: 80%;">
+            <p id="displayphonetic" style="padding-top: 22px; padding-left: 10px;"></p>
+          </div>
+        </div>
+        <p id="displayaddBtn"  style="margin-left: 75%;"></p>
+        <hr>
+  
+        <!--Display meaning section-->
+        <p id="displaymeaning1"><span id="dots"></span><p id="displaymeaning2"></span></p>
+      </div> <br><br>
+      <div class="divword" style="display: flex;">
+        <!--Display synonyms and antonyms section-->
+        <div style="width: 45%;">
+          <h2 style="text-align: center;">Synonyms</h2>
+          <p id="displaysynonyms"></p>
+        </div>
+        <hr style="width: 2px; height: auto;">
+        <div style="width: 45%; padding-left: 2%;">
+          <h2 style="text-align: center;">Antonyms</h2>
+          <p id="displayantonyms"></p>
+        </div>
+      </div>
+      <p id="aaa"></p>
+    </article>
+    <footer></footer>
+
+
+    
+
+  </body>
+</html>

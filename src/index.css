@@ -1,0 +1,140 @@
+/*tag*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+}
+header {
+  height: 170px;
+  background: radial-gradient(rgb(170, 194, 195) 0%, cadetblue 100%);
+  padding: 2%;
+}
+header h1 {
+  text-align: center;
+}
+input {
+  width: 300px;
+}
+article {
+  margin: 3%;
+}
+button {
+  cursor: pointer;
+}
+
+/*class*/
+.searchbox {
+  width: 500px;
+  height: 50px;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  margin-left: 10%;
+}
+.searchbox input {
+  border: 2px solid black;
+  border-radius: 50px;
+  height: 100%;
+  width: 96.5%;
+  font-size: 12pt;
+  padding-left: 4%;
+}
+.searchbox button {
+  background-color: grey;
+  color: white;
+  border: 0;
+  border-radius: 60%;
+  width: 51.5px;
+  height: 51.5px;
+  position: absolute;
+  left: 454.5px;
+  top: 1.7px;
+  cursor: pointer;
+  font-size: 30pt
+}
+.searchbox button:hover {
+  background-color: rgb(193, 193, 193);
+  color: black;
+}
+.divword {
+  border: 1px white solid;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 93%;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 16px 1px grey;
+}
+.syno {
+  background-color: lightblue;
+  color: blue;
+  padding: 0.5%;
+  border-radius: 10px;
+  width: max-content;
+  height: fit-content;
+}
+.anto {
+  background-color: pink;
+  color: maroon;
+  padding: 0.5%;
+  border-radius: 10px;
+  width: max-content;
+  height: fit-content;
+}
+.div1 {
+  width: 50%;
+  height: 100px;
+  padding: 3% 3% 0 3%;
+  text-align: center;
+  top: 30%;
+  border-radius: 10px;
+}
+.div1:hover {
+  height: 100px;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.div1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18pt;
+}
+
+/*id*/
+#audioIcon {
+  border: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: cadetblue;
+} 
+#myBtn {
+  border: 0;
+  text-decoration: underline;
+  background-color: white;
+}
+#displaymeaning2 {
+  display: none;
+}
+#dicticon {
+  float: left;
+  margin-left: 30%;
+}
+#add-btn {
+  border: 0;
+  width: 300px;
+  background-color: cadetblue;
+  font-size: 13pt;
+  height: 40px;
+  border-radius: 20px;
+}
+#add-btn:hover {
+  border: 0;
+  width: 300px;
+  font-size: 13pt;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+}

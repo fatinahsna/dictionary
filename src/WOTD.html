@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Word of The Day</title>
+    <link rel="stylesheet" href="WOTD.css">
+</head>
+<body>
+    <header>      
+        <!-- Title -->
+        <div style="display: flex;  font-size: larger; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+          <div style="width: 5%; padding-right: 5px; margin-left: 39.5%;">
+            <img src="dicticon.png" alt="" width="70px" height="70px" id="dicticon">
+          </div>
+          <div style="width: 10%;">
+            <h1>VocabVista</h1>
+          </div>
+        </div> <br>
+  
+          <!-- Directory -->
+          <div style="display: flex; width: 40%; top: 50%; padding-left: 30%;">
+            <div class="div1">
+              <a href="index.html">Dictionary</a>
+            </div>
+            <div class="div1" style="background-color: whitesmoke;">
+              <a href="WOTD.html">My Word of The Day</a>
+            </div>
+          </div>
+      </header>
+      <article>
+        <h1 style="font-size: 22pt;">Words List</h1>
+        <hr>
+        <div class="popup-container">
+            <div class="popup" id="my-popup">
+                <span class="close-btn" onclick="closePopup()">&#x2715;</span>
+                <!-- Popup content<button id="update-btn">Update Definition</button> -->
+                <center><h1>Select a new definition</h1></center>
+                <hr>
+                <h2 id="displayword" ></h2>
+                <form action="" id="formm">
+                    <p id="displaymeaning"></p><br><br>
+                    <p id="update-btn"></p>
+                </form>
+            </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <p id="list"></p>
+          </article>
+    <script src="WOTD.js"></script>
+</body>
+</html>
